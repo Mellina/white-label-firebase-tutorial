@@ -37,6 +37,33 @@ android {
     buildFeatures {
         viewBinding true
     }
+    flavorDimensions 'product', 'side'
+    productFlavors {
+        admin {
+            dimension 'side'
+            applicationIdSuffix '.admin'
+            versionName 'Admin'
+            versionNameSuffix '.Admin'
+            manifestPlaceholders appNameSulfix: '.Admin'
+        }
+        client {
+            dimension 'side'
+            manifestPlaceholders appNameSulfix: ''
+        }
+        bike {
+            manifestPlaceholders appName: 'Bike'
+            dimension 'product'
+            applicationIdSuffix 'bike'
+            versionName 'Bike'
+        }
+        car {
+            manifestPlaceholders appName: 'Car'
+            dimension 'product'
+            versionName 'Car'
+            applicationIdSuffix '.car'
+
+        }
+    }
 }
 
 dependencies {
