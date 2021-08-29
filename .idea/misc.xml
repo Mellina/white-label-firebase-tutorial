@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/white-label-firebase-tutorial/app/src/main/res/layout/add_product_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Projects/white-label-firebase-tutorial/app/src/main/res/layout/fragment_products.xml" value="0.33" />
+        <entry key="..\:/Projects/white-label-firebase-tutorial/app/src/main/res/layout/item_product.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
